@@ -11,15 +11,17 @@ public class MaxElement {
         int a = input.nextInt();
 
         double numbers = new double [a];
-        for (int a = 0; a < numbers.length; a++) {
-          System.out.println ( );
+         for (int a = 0; a < numbers.length; a++) {
 
+          System.out.println ( );
           }
+
           double max = numbers [i];
-        for (int i = 1; i < numbers.length; i++) {
+         for (int i = 1; i < numbers.length; i++) {
           if ( max < numbers [i]) {
             max=number [i];
           }
+
           System.out.println("Max numbers: " + max);
         }
         
