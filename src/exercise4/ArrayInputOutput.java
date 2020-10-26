@@ -1,4 +1,4 @@
-package exercise4;
+  package exercise4;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -18,5 +18,3 @@ public class ArrayInputOutput {
         String numbersAsString = Arrays.toString(numbers);
         System.out.println("Numbers: " + numbersAsString);
     }
-
-}

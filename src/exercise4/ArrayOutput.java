@@ -8,17 +8,16 @@ public class ArrayOutput {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int[] numbers = new int[5];
-
-        System.out.println("Enter numbers: ");
+        int size = input.nextInt();
+        int[] numbers = new int[size];
 
         for( int i = 0; i < numbers.length; i++) {
-           numbers[index] = input.nextInt();
+           numbers[i] = input.nextInt();
         }
        
         for (int index = 0; index < numbers.length; index++) {
 
-            for( int i = 0; i <index; i++){
+            for( int l = 0; l <index; l++){
               System.out.print(" ");
             }
             System.out.println(numbers[index]);

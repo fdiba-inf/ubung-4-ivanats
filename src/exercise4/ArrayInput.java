@@ -7,11 +7,10 @@ public class ArrayInput {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter array size: ");
+         int size = input.nextInt();
+         int[] numbers = new int[size];
 
-        int[] numbers =  new int [3];
-        numbers [0] = 7;
-        numbers [1] = -8;
-        numbers [2] = 1;
         System.out.println("Enter numbers: ");
         for (int index = 0; index < numbers.length; index++) { 
              numbers[index] = input.nextInt();

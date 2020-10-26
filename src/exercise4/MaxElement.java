@@ -9,24 +9,22 @@ public class MaxElement {
         Scanner input = new Scanner(System.in); 
         System.out.println("Enter arrey size: ");
         int a = input.nextInt();
+      double[] numbers = new double[a];  
 
-        double numbers = new double [a];
-         for (int a = 0; a < numbers.length; a++) {
+       System.out.println("Enter array elements: ");
 
-          System.out.println ( );
-          }
+        for (int i = 0; i < numbers.length; i++) {
+      numbers[i] = input.nextInt();
+         }
 
-          double max = numbers [i];
-         for (int i = 1; i < numbers.length; i++) {
-          if ( max < numbers [i]) {
-            max=number [i];
-          }
-
-          System.out.println("Max numbers: " + max);
-        }
+      double max = numbers[0];
+       for (int i = 1; i < numbers.length; i++) {
+         if(max < numbers[i]) {
+          max = numbers[i];
+         } 
+       }
+    System.out.println("Max number: " + max);
         
         }
         
     }
-
-}

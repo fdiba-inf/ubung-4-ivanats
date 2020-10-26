@@ -20,10 +20,13 @@ public class MinIndex {
       numbers[i] = input.nextInt();
      }
      
-      double min = numbers[0];
-      for (int i = 1; i < numbers.length; i++) {
-      if(min > numbers[i]) {
+     double min = numbers[0];
+     for (int i = 1; i < numbers.length; i++) {
+       if(min > numbers[i]) {
         min = numbers[i];
-        index = i;
+        index = i;}
+     }
 
-
+      System.out.println("Min index: " + index);
+      }
+   }
